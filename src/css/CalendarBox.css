@@ -1,0 +1,51 @@
+
+
+
+.calendar-top {
+    /* background-color: bisque; */
+    background:rgb(165, 115, 169);
+    height: 80px;
+    border-radius: 2rem 2rem 0rem 0rem;
+    font-size: 2rem;
+    color: linen;
+}
+.calendar-top-left-btn {
+    float: left;
+    /* margin-top: 25px; */
+}
+
+.calendar-top-right-btn {
+    float: right;
+    /* margin-top: 25px; */
+}
+
+.calendar-page-btn{
+    background: cadetblue;
+}
+
+.calendar-body{
+    background:lightpink;
+    height: 500px;
+    border-radius: 0 0 2rem 2rem;
+}
+
+.calendar-week{
+    height: 75px;
+}
+
+.calendar-date{
+    width: 96px;
+    border: 2px solid #282828;
+    float: left;
+    height: 69px;
+    border-radius: 0.3rem;
+}
+
+.calendar-day{
+    height: 20px;
+    width: 96px;
+    border: 2px solid #282828;
+    float: left;
+    border-radius: 0.3rem;
+}
+

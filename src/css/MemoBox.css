@@ -1,0 +1,49 @@
+.todo-list-template {
+    border-radius: 2rem;
+  }
+  
+  .title {
+    
+    padding: 1rem;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 100;
+    background: black;
+    color: white;
+    border-radius: 1rem 1rem 0 0;
+    height: 1rem;
+  }
+  
+
+.title-menu.BiLeftArrowAlt {
+  float: right;
+}
+.title-menu.BiSave{
+  float: right;
+}
+.inputTitle{
+    width: -webkit-fill-available;
+    height: 1.5rem;
+    font-size: 1rem;
+  }
+ 
+
+  .memoLink{
+    color: white;
+  }
+
+
+  .textareaMemo {
+    width: -webkit-fill-available;
+    height: 24rem;
+    border-radius: 0 0 1rem 1rem;
+    font-size: 1rem;
+    color: black;
+    background-attachment: local;
+    background-image:
+      linear-gradient(to right, white 10px, transparent 10px),
+      linear-gradient(to left, white 10px, transparent 10px),
+      repeating-linear-gradient(white, white 30px, #ccc 30px, #ccc 31px, white 31px);
+    line-height: 31px;
+    padding: 8px 10px;
+  }
